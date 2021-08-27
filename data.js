@@ -28,5 +28,5 @@ let song = [
         path: 'Assets/OsuMusics/Safe_and_Sounds',
         artist: 'Different Haven',
         cover: 'Assets/Images/Diona_OsuMusic.png'
-    }
+    },
 ]
