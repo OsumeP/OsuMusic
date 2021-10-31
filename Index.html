@@ -4,11 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OsuMusic</title>
-    <link rel="stykesheet" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet"´href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Home Section-->
+    <section class="home-section">
+      <!--Carousel-->
+      <div class="carousel">
+        <img src="Assets/Images/Hanako_OsuMusic.jpg" class="active" alt="">
+        <img src="Assets/Images/Uraraka_OsuMusic.jpg" alt="">
+        <img src="Assets/Images/Hyouka_OsuMusic.jpg" alt="">
+        <img src="Assets/Images/Waifu_OsuMusic.jpg" alt="">
+        <img src="Assets/Images/Diona_OsuMusic.png" alt="">
+      </div>
+      <!--Playlist-->
+      <h1 class="heading">recently played</h1>
+      <div class="playlists-group">
+            <div class="playlist-card">
+              <img src="Assets/Images/Bocchi_Hi_OsuMusic.jpg" class="playlist-card-img" alt="">
+              <p class="play-list-card-name">Gambare, Gambare</p>
+            </div>
+          <div class="playlist-card">
+            <img src="Assets/Images/Hallowen_OsuMusic.png" class="playlist-card-img" alt="">
+            <p class="play-list-card-name">For this hallowen</p>
+          </div>
+        <div class="playlist-card">
+            <img src="Assets/Images/NekoGamer_OsuMusic.png" class="playlist-card-img" alt="">
+            <p class="play-list-card-name">Progress House</p>
+        </div>
+        <div class="playlist-card">
+            <img src="Assets/Images/BlueCute_OsuMusic.jpg" class="playlist-card-img" alt="">
+            <p class="play-list-card-name">Gamer Music</p>
+        </div>
+        <div class="playlist-card">
+            <img src="Assets/Images/Kobayashi_OsuMusic.jpeg" class="playlist-card-img" alt="">
+            <p class="play-list-card-name">Let's motivate</p>
+        </div>
+      </div>
+      <h1 class="heading">Based on your Listening</h1>
+      <div class="playlists-group">
+            <div class="playlist-card">
+              <img src="Assets/Images/FunnyFace_OsuMusic.jpg" class="playlist-card-img" alt="">
+              <p class="play-list-card-name">Anime Openings</p>
+            </div>
+          <div class="playlist-card">
+            <img src="Assets/Images/Really_OsuMusic.jpg" class="playlist-card-img" alt="">
+            <p class="play-list-card-name">Rock</p>
+          </div>
+        <div class="playlist-card">
+            <img src="Assets/Images/Lets go_OsuMusic.jpg" class="playlist-card-img" alt="">
+            <p class="play-list-card-name">NCS</p>
+        </div>
+        <div class="playlist-card">
+            <img src="Assets/Images/BlueCute_OsuMusic.jpg" class="playlist-card-img" alt="">
+            <p class="play-list-card-name">Gamer Music</p>
+        </div>
+        <div class="playlist-card">
+            <img src="Assets/Images/Kobayashi_OsuMusic.jpeg" class="playlist-card-img" alt="">
+            <p class="play-list-card-name">Let's motivate</p>
+        </div>
+      </div>
+    </section>
+    <!--Music Player-->
+    <section class="music-player-section active">
+      <h1 class="current-song-name">OSU!</h1>
+      <p class="artist-name">Artist 1</p>
+      <img src="Assets/Images/Hanako_OsuMusic.jpg" class="cover" alt="">
+      <div class="seek-bar-container">
+        <input type="range" class="music-seek-bar" value="0">
+      </div>
+      <div class="controls">
+        <span class="fas fa-redo"></span>
+        <div class="main">
+          <i class="fas fa-backward active"> </i>
+          <i class="fas fa-play active"></i>
+          <i class="fas fa-pause"></i>
+          <i class="fas fa-forward active"></i>
+        </div>
+        <span class="fas fa-volume-up"></span>
+      </div>
+    </section>
     <script src="data.js"></script>
     <script src="app.js"></script>
 </body>
