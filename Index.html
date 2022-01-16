@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <audio src="" id="audio-source"></audio>
     <!--Home Section-->
     <section class="home-section">
       <!--Carousel-->
@@ -67,12 +68,16 @@
       </div>
     </section>
     <!--Music Player-->
-    <section class="music-player-section active">
-      <h1 class="current-song-name">OSU!</h1>
-      <p class="artist-name">Artist 1</p>
-      <img src="Assets/Images/Hanako_OsuMusic.jpg" class="cover" alt="">
+    <section class="music-player-section">
+      <img src="Assets/Images/BackNaruto_OsuMusic.png" class="back-btn icon hide" alt="">
+      <img src="Assets/Images/KonMenu_OsuMusic.png" class="nav-btn icon hide" alt="">
+      <h1 class="current-song-name">Black Catcher</h1>
+      <p class="artist-name hide">VickeBlanka</p>
+      <img src="Assets/Images/Hanako_OsuMusic.jpg" class="cover hide" alt="">
       <div class="seek-bar-container">
         <input type="range" class="music-seek-bar" value="0">
+        <p class="current-time hide">00 : 00</p>
+        <p class="duration hide">00 : 00</p>
       </div>
       <div class="controls">
         <span class="fas fa-redo"></span>
@@ -82,7 +87,47 @@
           <i class="fas fa-pause"></i>
           <i class="fas fa-forward active"></i>
         </div>
+        <input type="range" class="volume-slider" max="1" value="1" step="0.1">
         <span class="fas fa-volume-up"></span>
+      </div>
+    </section>
+    <section class="playlist">
+      <img src="Assets/Images/BackNaruto_OsuMusic.png" class="back-btn icon" alt="">
+      <h1 class="title">playlist</h1>
+      <div class="queue active">
+        <div class="queue-cover">
+          <img src="Assets/Images/Hanako_OsuMusic.jpg" alt="">
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">Black Catcher</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="Assets/Images/Uraraka_OsuMusic.jpg" alt="">
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">Crystaline Chill</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="Assets/Images/Hyouka_OsuMusic.jpg" alt="">
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">Memories</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="Assets/Images/Waifu_OsuMusic.jpg" alt="">
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">Robot Love</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="Assets/Images/Diona_OsuMusic.png" alt="">
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">Safe and Sound</p>
       </div>
     </section>
     <script src="data.js"></script>

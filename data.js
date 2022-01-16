@@ -1,4 +1,4 @@
-let song = [
+let songs = [
     {
         name: 'Black Catcher',
         path: 'Assets/OsuMusics/Black_Catcher.mp3',
@@ -25,7 +25,7 @@ let song = [
     },
     {
         name: 'Safe and Sound',
-        path: 'Assets/OsuMusics/Safe_and_Sounds',
+        path: 'Assets/OsuMusics/Safe_and_Sound.mp3',
         artist: 'Different Haven',
         cover: 'Assets/Images/Diona_OsuMusic.png'
     },
